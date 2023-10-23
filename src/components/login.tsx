@@ -12,32 +12,32 @@ export const Login = () => {
   const [formulario, setFormulario] = useState(initialState)
   const [error, setError] = useState(null)
 
-  const handleChange = e => {
+  const handleChange = (e: any) => {
     setFormulario({
       ...formulario,
       [e.target.name]: e.target.value
     })
   }
-  const submitLogin = async (e) => {
+  const submitLogin = async (e: any) => {
     e.preventDefault()
     try {
       await singIn(formulario.email, formulario.password)
       setOpen(false)
       setFormulario(initialState)
-    } catch (error) {
+    } catch (error: any) {
       console.log('error:', error)
       setError(error.message)
     }
   }
 
-  const submitRegister = async (e) => {
+  const submitRegister = async (e: any) => {
     e.preventDefault()
     try {
       await registerNewUsers(formulario.email, formulario.password)
       console.log(formulario)
       setFormulario(initialState)
       setLogin(true)
-    } catch (error) {
+    } catch (error: any) {
       console.log('error:', error)
       setError(error.message)
     }
@@ -47,7 +47,7 @@ export const Login = () => {
     try {
       console.log('asd')
       const { user } = await singInWithGoogle()
-      console.log('ffff')
+      console.log(user)
     } catch (error) {
       console.log('ERRORRRR')
     }

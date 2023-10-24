@@ -1,7 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
-import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth'
-import { GoogleAuthProvider } from 'firebase/auth/cordova'
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -16,9 +15,9 @@ const firebaseConfig = {
 }
 
 // Initialize Firebase
-initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig)
 
-const auth = getAuth()
+export const auth = getAuth(app)
 
 export const registerNewUsers = async (email: string, password: string) => {
   const newUser = await createUserWithEmailAndPassword(auth, email, password)
@@ -27,13 +26,14 @@ export const registerNewUsers = async (email: string, password: string) => {
 }
 
 export const singIn = async (email: string, password: string) => {
-  await signInWithEmailAndPassword(auth, email, password)
-  // console.log(user)
+  const user = await signInWithEmailAndPassword(auth, email, password)
+  return user
 }
 
 export const singInWithGoogle = async () => {
   const provider = new GoogleAuthProvider()
-  return await signInWithPopup(auth, provider)
+  const user = await signInWithPopup(auth, provider)
+  return user
 }
 
 export const singOut = async () => {

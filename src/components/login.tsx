@@ -1,5 +1,6 @@
 'use client'
 import { registerNewUsers, singIn, singInWithGoogle } from '@/data/firebase'
+import { userAuth } from '@/store/userStore'
 
 import { useState } from 'react'
 const initialState = {
@@ -12,7 +13,10 @@ export const Login = () => {
   const [formulario, setFormulario] = useState(initialState)
   const [error, setError] = useState(null)
 
+  const { setAuth, authenticate, email } = userAuth()
+
   const handleChange = (e: any) => {
+    console.log(authenticate)
     setFormulario({
       ...formulario,
       [e.target.name]: e.target.value
@@ -21,9 +25,12 @@ export const Login = () => {
   const submitLogin = async (e: any) => {
     e.preventDefault()
     try {
-      await singIn(formulario.email, formulario.password)
+      const { user } = await singIn(formulario.email, formulario.password)
+      console.log(user)
       setOpen(false)
       setFormulario(initialState)
+      setAuth(true, user.email ?? '')
+      setError(null)
     } catch (error: any) {
       console.log('error:', error)
       setError(error.message)
@@ -35,8 +42,10 @@ export const Login = () => {
     try {
       await registerNewUsers(formulario.email, formulario.password)
       console.log(formulario)
-      setFormulario(initialState)
       setLogin(true)
+      setOpen(false)
+      setFormulario(initialState)
+      setError(null)
     } catch (error: any) {
       console.log('error:', error)
       setError(error.message)
@@ -47,20 +56,18 @@ export const Login = () => {
     try {
       console.log('asd')
       const { user } = await singInWithGoogle()
-      console.log(user)
+      setLogin(true)
+      setOpen(false)
+      setFormulario(initialState)
+      setAuth(true, user.email ?? '')
+      setError(null)
     } catch (error) {
-      console.log('ERRORRRR')
+      console.log('ERRORRRR', error)
     }
   }
 
   return (
         <>
-            <button
-                onClick={() => { setOpen(true) }}
-                className="absolute z-[500] right-0 m-5 justify-center font-medium ring-offset-background h-10 px-2 py-1 bg-gray-800 text-white rounded-lg flex items-center space-x-2 text-sm"
-                type="button">
-                <span>Iniciar Sesion</span>
-            </button>
             <div className={`${!open && 'hidden'} bg-gray-100 min-h-screen flex items-center justify-center z-[1100]`}>
                 <div className="max-w-md w-[400px] rounded-lg shadow-lg bg-white p-8 space-y-6 border border-gray-200 dark:border-gray-700">
                     <div className="space-y-2 text-center">
@@ -102,7 +109,7 @@ export const Login = () => {
                             name="password"
 
                                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                id="email" placeholder="******" required />
+                                id="password" placeholder="******" required />
                         </div>
                         {
                             login
@@ -143,6 +150,12 @@ export const Login = () => {
                     </form>
                 </div>
             </div>
+            <button
+                onClick={() => { setOpen(true) }}
+                className="absolute z-[500] right-0 m-5 justify-center font-medium ring-offset-background h-10 px-2 py-1 bg-gray-800 text-white rounded-lg flex items-center space-x-2 text-sm"
+                type="button">
+                <span>{!authenticate ? 'Iniciar Sesion' : email}</span>
+            </button>
         </>
   )
 }

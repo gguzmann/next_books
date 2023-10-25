@@ -1,9 +1,13 @@
+'use client'
+import { userAuth } from '@/store/userStore'
 import Link from 'next/link'
 
 export const Navbar = () => {
+  const { authenticate } = userAuth()
   const routes = [
     {
       id: 1,
+      isAuth: true,
       path: '/',
       name: 'Home',
       svg: <svg
@@ -16,6 +20,7 @@ export const Navbar = () => {
     },
     {
       id: 2,
+      isAuth: authenticate,
       path: '/books',
       name: 'Books',
       svg: <svg
@@ -29,6 +34,7 @@ export const Navbar = () => {
     },
     {
       id: 3,
+      isAuth: true,
       path: '/categories',
       name: 'Categories',
       svg: <svg
@@ -52,12 +58,14 @@ export const Navbar = () => {
             </div>
             <nav className="space-y-2">
                 {routes.map(route => (
+                  route.isAuth &&
                     <Link key={route.id} href={route.path} className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
                         {route.svg}
                         <span className="text-sm font-medium">
                             {route.name}
                         </span>
                     </Link>
+
                 ))}
             </nav>
         </aside>

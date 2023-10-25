@@ -28,7 +28,7 @@ export const categoriesData = [
 
 export const books = [
   {
-    _id: 1,
+    id: 1,
     title: 'Unlocking Android',
     isbn: '1933988673',
     pageCount: 416,
@@ -42,7 +42,7 @@ export const books = [
     authors: ['W. Frank Ableson', 'Charlie Collins', 'Robi Sen'],
     categories: ['Open Source', 'Mobile']
   }, {
-    _id: 2,
+    id: 2,
     title: 'Android in Action, Second Edition',
     isbn: '1935182722',
     pageCount: 592,
@@ -56,7 +56,7 @@ export const books = [
     authors: ['W. Frank Ableson', 'Robi Sen'],
     categories: ['Java']
   }, {
-    _id: 3,
+    id: 3,
     title: 'Specification by Example',
     isbn: '1617290084',
     pageCount: 0,
@@ -68,7 +68,7 @@ export const books = [
     authors: ['Gojko Adzic'],
     categories: ['Software Engineering']
   }, {
-    _id: 4,
+    id: 4,
     title: 'Flex 3 in Action',
     isbn: '1933988746',
     pageCount: 576,
@@ -81,7 +81,7 @@ export const books = [
     authors: ['Tariq Ahmed with Jon Hirschi', 'Faisal Abid'],
     categories: ['Internet']
   }, {
-    _id: 5,
+    id: 5,
     title: 'Flex 4 in Action',
     isbn: '1935182420',
     pageCount: 600,
@@ -94,7 +94,7 @@ export const books = [
     authors: ['Tariq Ahmed', 'Dan Orlando', 'John C. Bland II', 'Joel Hooks'],
     categories: ['Internet']
   }, {
-    _id: 6,
+    id: 6,
     title: 'Collective Intelligence in Action',
     isbn: '1933988312',
     pageCount: 425,
@@ -107,7 +107,7 @@ export const books = [
     authors: ['Satnam Alag'],
     categories: ['Internet']
   }, {
-    _id: 7,
+    id: 7,
     title: 'Zend Framework in Action',
     isbn: '1933988320',
     pageCount: 432,
@@ -121,7 +121,7 @@ export const books = [
     authors: ['Rob Allen', 'Nick Lo', 'Steven Brown'],
     categories: ['Web Development']
   }, {
-    _id: 8,
+    id: 8,
     title: 'Flex on Java',
     isbn: '1933988797',
     pageCount: 265,
@@ -135,7 +135,7 @@ export const books = [
     authors: ['Bernerd Allmon', 'Jeremy Anderson'],
     categories: ['Internet']
   }, {
-    _id: 9,
+    id: 9,
     title: 'Griffon in Action',
     isbn: '1935182234',
     pageCount: 375,
@@ -149,7 +149,7 @@ export const books = [
     authors: ['Andres Almiray', 'Danno Ferrin', '', 'James Shingler'],
     categories: ['Java']
   }, {
-    _id: 10,
+    id: 10,
     title: 'OSGi in Depth',
     isbn: '193518217X',
     pageCount: 325,
@@ -163,7 +163,7 @@ export const books = [
     authors: ['Alexandre de Castro Alves'],
     categories: ['Java']
   }, {
-    _id: 11,
+    id: 11,
     title: 'Flexible Rails',
     isbn: '1933988509',
     pageCount: 592,
@@ -177,7 +177,7 @@ export const books = [
     authors: ['Peter Armstrong'],
     categories: ['Web Development']
   }, {
-    _id: 13,
+    id: 13,
     title: 'Hello! Flex 4',
     isbn: '1933988762',
     pageCount: 258,
@@ -191,7 +191,7 @@ export const books = [
     authors: ['Peter Armstrong'],
     categories: ['Internet']
   }, {
-    _id: 14,
+    id: 14,
     title: 'Coffeehouse',
     isbn: '1884777384',
     pageCount: 316,
@@ -205,7 +205,7 @@ export const books = [
     authors: ['Levi Asher', 'Christian Crumlish'],
     categories: ['Miscellaneous']
   }, {
-    _id: 15,
+    id: 15,
     title: 'Team Foundation Server 2008 in Action',
     isbn: '1933988592',
     pageCount: 344,
@@ -218,7 +218,7 @@ export const books = [
     authors: ['Jamil Azher'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 16,
+    id: 16,
     title: 'Brownfield Application Development in .NET',
     isbn: '1933988711',
     pageCount: 550,
@@ -232,7 +232,7 @@ export const books = [
     authors: ['Kyle Baley', 'Donald Belcham'],
     categories: ['Microsoft']
   }, {
-    _id: 17,
+    id: 17,
     title: 'MongoDB in Action',
     isbn: '1935182870',
     pageCount: 0,
@@ -246,7 +246,7 @@ export const books = [
     authors: ['Kyle Banker'],
     categories: ['Next Generation Databases']
   }, {
-    _id: 18,
+    id: 18,
     title: 'Distributed Application Development with PowerBuilder 6.0',
     isbn: '1884777686',
     pageCount: 504,
@@ -258,7 +258,7 @@ export const books = [
     authors: ['Michael J. Barlotta'],
     categories: ['PowerBuilder']
   }, {
-    _id: 19,
+    id: 19,
     title: 'Jaguar Development with PowerBuilder 7',
     isbn: '1884777864',
     pageCount: 550,
@@ -272,7 +272,7 @@ export const books = [
     authors: ['Michael Barlotta'],
     categories: ['PowerBuilder', 'Client-Server']
   }, {
-    _id: 20,
+    id: 20,
     title: 'Taming Jaguar',
     isbn: '1884777686',
     pageCount: 362,
@@ -285,7 +285,7 @@ export const books = [
     authors: ['Michael J. Barlotta', 'Jason R. Weiss'],
     categories: ['PowerBuilder']
   }, {
-    _id: 21,
+    id: 21,
     title: '3D User Interfaces with Java 3D',
     isbn: '1884777902',
     pageCount: 520,
@@ -298,7 +298,7 @@ export const books = [
     authors: ['Jon Barrilleaux'],
     categories: ['Java', 'Computer Graphics']
   }, {
-    _id: 22,
+    id: 22,
     title: 'Hibernate in Action',
     isbn: '193239415X',
     pageCount: 400,
@@ -312,7 +312,7 @@ export const books = [
     authors: ['Christian Bauer', 'Gavin King'],
     categories: ['Java']
   }, {
-    _id: 23,
+    id: 23,
     title: 'Hibernate in Action (Chinese Edition)',
     pageCount: 400,
     publishedDate: {
@@ -323,7 +323,7 @@ export const books = [
     authors: ['Christian Bauer', 'Gavin King'],
     categories: ['Java']
   }, {
-    _id: 24,
+    id: 24,
     title: 'Java Persistence with Hibernate',
     isbn: '1932394885',
     pageCount: 880,
@@ -337,7 +337,7 @@ export const books = [
     authors: ['Christian Bauer', 'Gavin King'],
     categories: ['Java']
   }, {
-    _id: 25,
+    id: 25,
     title: 'JSTL in Action',
     isbn: '1930110529',
     pageCount: 480,
@@ -350,7 +350,7 @@ export const books = [
     authors: ['Shawn Bayern'],
     categories: ['Internet']
   }, {
-    _id: 26,
+    id: 26,
     title: 'iBATIS in Action',
     isbn: '1932394826',
     pageCount: 384,
@@ -364,7 +364,7 @@ export const books = [
     authors: ['Clinton Begin', 'Brandon Goodin', 'Larry Meadors'],
     categories: ['Web Development']
   }, {
-    _id: 27,
+    id: 27,
     title: 'Designing Hard Software',
     isbn: '133046192',
     pageCount: 350,
@@ -377,7 +377,7 @@ export const books = [
     authors: ['Douglas W. Bennett'],
     categories: ['Object-Oriented Programming', 'S']
   }, {
-    _id: 28,
+    id: 28,
     title: 'Hibernate Search in Action',
     isbn: '1933988649',
     pageCount: 488,
@@ -391,7 +391,7 @@ export const books = [
     authors: ['Emmanuel Bernard', 'John Griffin'],
     categories: ['Java']
   }, {
-    _id: 29,
+    id: 29,
     title: 'jQuery in Action',
     isbn: '1933988355',
     pageCount: 376,
@@ -405,7 +405,7 @@ export const books = [
     authors: ['Bear Bibeault', 'Yehuda Katz'],
     categories: ['Web Development']
   }, {
-    _id: 30,
+    id: 30,
     title: 'jQuery in Action, Second Edition',
     isbn: '1935182323',
     pageCount: 488,
@@ -419,7 +419,7 @@ export const books = [
     authors: ['Bear Bibeault', 'Yehuda Katz'],
     categories: ['Java']
   }, {
-    _id: 31,
+    id: 31,
     title: 'Building Secure and Reliable Network Applications',
     isbn: '1884777295',
     pageCount: 591,
@@ -433,7 +433,7 @@ export const books = [
     authors: ['Kenneth P. Birman'],
     categories: ['Networking', 'Theory']
   }, {
-    _id: 32,
+    id: 32,
     title: 'Ruby for Rails',
     isbn: '1932394699',
     pageCount: 532,
@@ -447,7 +447,7 @@ export const books = [
     authors: ['David A. Black'],
     categories: ['Web Development']
   }, {
-    _id: 33,
+    id: 33,
     title: 'The Well-Grounded Rubyist',
     isbn: '1933988657',
     pageCount: 520,
@@ -461,7 +461,7 @@ export const books = [
     authors: ['David A. Black'],
     categories: ['Programming']
   }, {
-    _id: 35,
+    id: 35,
     title: "Website Owner's Manual",
     isbn: '1933988452',
     pageCount: 296,
@@ -475,7 +475,7 @@ export const books = [
     authors: ['Paul A. Boag'],
     categories: ['Internet']
   }, {
-    _id: 36,
+    id: 36,
     title: 'ASP.NET 4.0 in Practice',
     isbn: '1935182463',
     pageCount: 504,
@@ -489,7 +489,7 @@ export const books = [
     authors: ['Daniele Bochicchio', 'Stefano Mostarda', '', 'Marco De Sanctis'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 37,
+    id: 37,
     title: 'Hello! Python',
     isbn: '1935182080',
     pageCount: 350,
@@ -503,7 +503,7 @@ export const books = [
     authors: ['Anthony Briggs'],
     categories: ['Python']
   }, {
-    _id: 38,
+    id: 38,
     title: "PFC Programmer's Reference Manual",
     isbn: '1884777554',
     pageCount: 368,
@@ -516,7 +516,7 @@ export const books = [
     authors: ['Richard Brooks'],
     categories: ['PowerBuilder']
   }, {
-    _id: 39,
+    id: 39,
     title: 'Graphics File Formats',
     isbn: '133034054',
     pageCount: 484,
@@ -529,7 +529,7 @@ export const books = [
     authors: ['C. Wayne Brown', 'Barry J. Shepherd'],
     categories: ['Computer Graphics']
   }, {
-    _id: 40,
+    id: 40,
     title: 'Visual Object Oriented Programming',
     isbn: '131723979',
     pageCount: 280,
@@ -542,7 +542,7 @@ export const books = [
     authors: ['Margaret M. Burnett', 'Adele Goldberg', '', 'Ted G. Lewis'],
     categories: ['Programming']
   }, {
-    _id: 41,
+    id: 41,
     title: 'iOS in Practice',
     isbn: '1617291269',
     pageCount: 325,
@@ -554,7 +554,7 @@ export const books = [
     authors: ['Bear P. Cahill'],
     categories: ['Mobile Technology']
   }, {
-    _id: 42,
+    id: 42,
     title: 'iPhone in Action',
     isbn: '193398886X',
     pageCount: 472,
@@ -568,7 +568,7 @@ export const books = [
     authors: ['Christopher Allen', 'Shannon Appelcline'],
     categories: ['Web Development']
   }, {
-    _id: 43,
+    id: 43,
     title: 'Silverlight 2 in Action',
     isbn: '1933988428',
     pageCount: 400,
@@ -582,7 +582,7 @@ export const books = [
     authors: ['Chad A. Campbell', 'John Stockton'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 45,
+    id: 45,
     title: 'The Quick Python Book, Second Edition',
     isbn: '193518220X',
     pageCount: 360,
@@ -596,7 +596,7 @@ export const books = [
     authors: ['Naomi R. Ceder'],
     categories: ['Python']
   }, {
-    _id: 46,
+    id: 46,
     title: 'Internet and Intranet Applications with PowerBuilder 6',
     isbn: '1884777600',
     pageCount: 390,
@@ -609,7 +609,7 @@ export const books = [
     authors: ['Tom Cervenka'],
     categories: ['PowerBuilder']
   }, {
-    _id: 48,
+    id: 48,
     title: 'Practical Methods for Your Year 2000 Problem',
     isbn: '188477752X',
     pageCount: 236,
@@ -622,7 +622,7 @@ export const books = [
     authors: ['Robert Chapman'],
     categories: ['Business']
   }, {
-    _id: 51,
+    id: 51,
     title: 'Mobile Agents',
     isbn: '1884777368',
     pageCount: 320,
@@ -636,7 +636,7 @@ export const books = [
     authors: ['William R. Cockayne and Michael Zyda', 'editors'],
     categories: ['Internet']
   }, {
-    _id: 52,
+    id: 52,
     title: 'Spring Dynamic Modules in Action',
     isbn: '1935182307',
     pageCount: 450,
@@ -650,7 +650,7 @@ export const books = [
     authors: ['Arnaud Cogoluegnes', 'Thierry Templier', '', 'Andy Piper'],
     categories: ['Java']
   }, {
-    _id: 53,
+    id: 53,
     title: 'SQL Server 2008 Administration in Action',
     isbn: '193398872X',
     pageCount: 468,
@@ -663,7 +663,7 @@ export const books = [
     authors: ['Rod Colledge'],
     categories: ['Microsoft']
   }, {
-    _id: 54,
+    id: 54,
     title: 'Android in Practice',
     isbn: '1935182927',
     pageCount: 500,
@@ -677,7 +677,7 @@ export const books = [
     authors: ['Charlie Collins', 'Michael D. Galpin', '', 'Matthias Kaeppler'],
     categories: ['Mobile Technology']
   }, {
-    _id: 55,
+    id: 55,
     title: 'Object Oriented Perl',
     isbn: '1884777791',
     pageCount: 512,
@@ -690,7 +690,7 @@ export const books = [
     authors: ['Damian Conway'],
     categories: ['Object-Oriented Programming', 'P']
   }, {
-    _id: 56,
+    id: 56,
     title: 'GWT in Practice',
     isbn: '1933988290',
     pageCount: 376,
@@ -703,7 +703,7 @@ export const books = [
     authors: ['Robert Cooper', 'Charles Collins'],
     categories: ['Web Development']
   }, {
-    _id: 59,
+    id: 59,
     title: 'Ajax in Action',
     isbn: '1932394613',
     pageCount: 680,
@@ -716,7 +716,7 @@ export const books = [
     authors: ['Dave Crane', 'Eric Pascarello with Darren James'],
     categories: ['XML', 'Internet']
   }, {
-    _id: 60,
+    id: 60,
     title: 'Ajax in Practice',
     isbn: '1932394990',
     pageCount: 536,
@@ -729,7 +729,7 @@ export const books = [
     authors: ['Dave Crane', 'Jord Sonneveld and Bear Bibeault with Ted Goddard', 'Chris Gray', 'Ram Venkataraman', 'Joe Walker'],
     categories: ['Web Development']
   }, {
-    _id: 61,
+    id: 61,
     title: 'Prototype and Scriptaculous in Action',
     isbn: '1933988037',
     pageCount: 544,
@@ -742,7 +742,7 @@ export const books = [
     authors: ['Dave Crane', 'Bear Bibeault with Tom Locke'],
     categories: ['Web Development']
   }, {
-    _id: 63,
+    id: 63,
     title: 'POJOs in Action',
     isbn: '1932394583',
     pageCount: 592,
@@ -756,7 +756,7 @@ export const books = [
     authors: ['Chris Richardson'],
     categories: ['Java']
   }, {
-    _id: 64,
+    id: 64,
     title: 'Data Munging with Perl',
     isbn: '1930110006',
     pageCount: 304,
@@ -769,7 +769,7 @@ export const books = [
     authors: ['David Cross'],
     categories: ['Perl']
   }, {
-    _id: 65,
+    id: 65,
     title: 'Hello! HTML5 & CSS3',
     isbn: '1935182897',
     pageCount: 325,
@@ -783,7 +783,7 @@ export const books = [
     authors: ['Rob Crowther'],
     categories: ['Internet']
   }, {
-    _id: 66,
+    id: 66,
     title: 'Seam in Action',
     isbn: '1933988401',
     pageCount: 624,
@@ -797,7 +797,7 @@ export const books = [
     authors: ['Dan Allen'],
     categories: ['Java']
   }, {
-    _id: 67,
+    id: 67,
     title: 'Wicket in Action',
     isbn: '1932394982',
     pageCount: 392,
@@ -810,7 +810,7 @@ export const books = [
     authors: ['Martijn Dashorst', 'Eelco Hillenius'],
     categories: ['Web Development']
   }, {
-    _id: 68,
+    id: 68,
     title: 'Open Source SOA',
     isbn: '1933988541',
     pageCount: 448,
@@ -823,7 +823,7 @@ export const books = [
     authors: ['Jeff Davis'],
     categories: ['Java']
   }, {
-    _id: 69,
+    id: 69,
     title: 'Struts 2 in Action',
     isbn: '193398807X',
     pageCount: 432,
@@ -836,7 +836,7 @@ export const books = [
     authors: ['Donald Brown', 'Chad Michael Davis', '', 'Scott Stanlick'],
     categories: ['Java']
   }, {
-    _id: 70,
+    id: 70,
     title: 'Essential Guide to Peoplesoft Development and Customization',
     isbn: '1884777929',
     pageCount: 1101,
@@ -849,7 +849,7 @@ export const books = [
     authors: ['Tony DeLia', 'Galina Landres', 'Isidor Rivera', 'Prakash Sankaran'],
     categories: ['Client-Server']
   }, {
-    _id: 71,
+    id: 71,
     title: '.NET Multithreading',
     isbn: '1930110545',
     pageCount: 360,
@@ -862,7 +862,7 @@ export const books = [
     authors: ['Alan Dennis'],
     categories: ['Microsoft .NET', 'Internet']
   }, {
-    _id: 72,
+    id: 72,
     title: 'SCWCD Exam Study Kit Second Edition',
     isbn: '1932394389',
     pageCount: 560,
@@ -875,7 +875,7 @@ export const books = [
     authors: ['Hanumant Deshmukh', 'Jignesh Malavia', '', 'Matthew Scarpino'],
     categories: ['Internet']
   }, {
-    _id: 73,
+    id: 73,
     title: 'Spring Roo in Action',
     isbn: '193518296X',
     pageCount: 500,
@@ -887,7 +887,7 @@ export const books = [
     authors: ['Ken Rimple', 'Srini Penchikala'],
     categories: ['Java']
   }, {
-    _id: 74,
+    id: 74,
     title: 'SOA Governance in Action',
     isbn: '1617290270',
     pageCount: 0,
@@ -899,7 +899,7 @@ export const books = [
     authors: ['Jos Dirksen'],
     categories: ['java']
   }, {
-    _id: 75,
+    id: 75,
     title: 'RSS and Atom in Action',
     isbn: '1932394494',
     pageCount: 400,
@@ -912,7 +912,7 @@ export const books = [
     authors: ['Dave Johnson'],
     categories: ['Internet']
   }, {
-    _id: 76,
+    id: 76,
     title: 'LDAP Programming, Management and Integration',
     isbn: '1930110405',
     pageCount: 352,
@@ -925,7 +925,7 @@ export const books = [
     authors: ['Clayton Donley'],
     categories: ['Internet']
   }, {
-    _id: 77,
+    id: 77,
     title: 'Mule in Action',
     isbn: '1933988967',
     pageCount: 432,
@@ -938,7 +938,7 @@ export const books = [
     authors: ['David Dossot', "John D'Emic"],
     categories: ['Java', 'Software Engineering']
   }, {
-    _id: 79,
+    id: 79,
     title: 'Java Foundation Classes',
     isbn: '1884777678',
     pageCount: 1088,
@@ -951,7 +951,7 @@ export const books = [
     authors: ['Stephen C. Drye', 'William C. Wake'],
     categories: ['Java']
   }, {
-    _id: 117,
+    id: 117,
     title: 'Managing Components with Modeler',
     isbn: '1932394524k-e',
     pageCount: 0,
@@ -963,7 +963,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 118,
+    id: 118,
     title: 'Command-line Processing with CLI',
     isbn: '1932394524l-e',
     pageCount: 0,
@@ -975,7 +975,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 119,
+    id: 119,
     title: 'Understanding and Using Chain',
     isbn: '1932394524m-e',
     pageCount: 0,
@@ -987,7 +987,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 120,
+    id: 120,
     title: 'Working with the Logging and Discovery Components',
     isbn: '1932394524n-e',
     pageCount: 0,
@@ -999,7 +999,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 121,
+    id: 121,
     title: 'Uploading files with FileUpload',
     isbn: '1932394524b-e',
     pageCount: 0,
@@ -1011,7 +1011,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 122,
+    id: 122,
     title: 'Handling Protocols with the Net Component',
     isbn: '1932394524c-e',
     pageCount: 0,
@@ -1023,7 +1023,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 123,
+    id: 123,
     title: 'XML Parsing with Digester',
     isbn: '1932394524d-e',
     pageCount: 0,
@@ -1035,7 +1035,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 124,
+    id: 124,
     title: 'JXPath and Betwixt: Working with XML',
     isbn: '1932394524e-e',
     pageCount: 0,
@@ -1047,7 +1047,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 125,
+    id: 125,
     title: 'Validating Data with Validator',
     isbn: '1932394524f-e',
     pageCount: 0,
@@ -1059,7 +1059,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 126,
+    id: 126,
     title: 'Enhancing Java Core Libraries with Collections',
     isbn: '1932394524g-e',
     pageCount: 0,
@@ -1071,7 +1071,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 127,
+    id: 127,
     title: 'Enhancing Java Core Libraries with BeanUtils and Lang',
     isbn: '1932394524h-e',
     pageCount: 0,
@@ -1083,7 +1083,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 128,
+    id: 128,
     title: 'Pool and DBCP: Creating and Using Object Pools',
     isbn: '1932394524i-e',
     pageCount: 0,
@@ -1095,7 +1095,7 @@ export const books = [
     authors: ['Vikram Goyal'],
     categories: ['Java']
   }, {
-    _id: 129,
+    id: 129,
     title: 'Python and Tkinter Programming',
     isbn: '1884777813',
     pageCount: 688,
@@ -1108,7 +1108,7 @@ export const books = [
     authors: ['John E. Grayson'],
     categories: ['Python']
   }, {
-    _id: 130,
+    id: 130,
     title: 'Microsoft.NET for Programmers',
     isbn: '1930110197',
     pageCount: 386,
@@ -1121,7 +1121,7 @@ export const books = [
     authors: ['Fergal Grimes'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 131,
+    id: 131,
     title: 'Grails in Action',
     isbn: '1933988932',
     pageCount: 520,
@@ -1135,7 +1135,7 @@ export const books = [
     authors: ['Glen Smith', 'Peter Ledbrook'],
     categories: ['Java']
   }, {
-    _id: 132,
+    id: 132,
     title: 'Up to Speed with Swing, Second Edition',
     isbn: '1884777759',
     pageCount: 560,
@@ -1149,7 +1149,7 @@ export const books = [
     authors: ['Steven Gutz'],
     categories: ['Java']
   }, {
-    _id: 133,
+    id: 133,
     title: 'OSGi in Action',
     isbn: '1933988916',
     pageCount: 576,
@@ -1163,7 +1163,7 @@ export const books = [
     authors: ['Richard S. Hall', 'Karl Pauls', 'Stuart McCulloch', '', 'David Savage'],
     categories: ['Internet']
   }, {
-    _id: 135,
+    id: 135,
     title: 'GWT in Action',
     isbn: '1933988231',
     pageCount: 632,
@@ -1176,7 +1176,7 @@ export const books = [
     authors: ['Robert Hanson', 'Adam Tacy'],
     categories: ['Internet', 'Java']
   }, {
-    _id: 136,
+    id: 136,
     title: 'The Quick Python Book',
     isbn: '1884777740',
     pageCount: 444,
@@ -1189,7 +1189,7 @@ export const books = [
     authors: ['Daryl Harms', 'Kenneth McDonald'],
     categories: ['Python']
   }, {
-    _id: 137,
+    id: 137,
     title: "SharePoint 2010 Site Owner's Manual",
     isbn: '1933988754',
     pageCount: 300,
@@ -1203,7 +1203,7 @@ export const books = [
     authors: ['Yvonne M. Harryman'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 139,
+    id: 139,
     title: 'Java Development with Ant',
     isbn: '1930110588',
     pageCount: 672,
@@ -1217,7 +1217,7 @@ export const books = [
     authors: ['Erik Hatcher', 'Steve Loughran'],
     categories: ['Java', 'Internet']
   }, {
-    _id: 140,
+    id: 140,
     title: 'Lucene in Action',
     isbn: '1932394281',
     pageCount: 456,
@@ -1230,7 +1230,7 @@ export const books = [
     authors: ['Erik Hatcher', 'Otis Gospodnetic'],
     categories: ['Java']
   }, {
-    _id: 141,
+    id: 141,
     title: 'Lucene in Action, Second Edition',
     isbn: '1933988177',
     pageCount: 532,
@@ -1244,7 +1244,7 @@ export const books = [
     authors: ['Erik Hatcher', 'Otis Gospodnetic', '', 'Michael McCandless'],
     categories: ['Java', 'Open Source']
   }, {
-    _id: 142,
+    id: 142,
     title: 'PowerBuilder 6.0 Questions & Answers',
     isbn: '1884777708',
     pageCount: 446,
@@ -1258,7 +1258,7 @@ export const books = [
     authors: ['Tim Hatton'],
     categories: ['PowerBuilder']
   }, {
-    _id: 143,
+    id: 143,
     title: 'The Awesome Power of PowerJ',
     isbn: '1884777538',
     pageCount: 378,
@@ -1272,7 +1272,7 @@ export const books = [
     authors: ['Tim Hatton'],
     categories: ['Java']
   }, {
-    _id: 144,
+    id: 144,
     title: 'The Awesome Power of Power++',
     isbn: '1884777546',
     pageCount: 416,
@@ -1286,7 +1286,7 @@ export const books = [
     authors: ['Tim Hatton'],
     categories: ['PowerBuilder']
   }, {
-    _id: 145,
+    id: 145,
     title: 'Azure in Action',
     isbn: '193518248X',
     pageCount: 425,
@@ -1300,7 +1300,7 @@ export const books = [
     authors: ['Chris Hay', 'Brian H. Prince'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 146,
+    id: 146,
     title: 'Distributed Agile in Action',
     isbn: '1935182412',
     pageCount: 325,
@@ -1311,7 +1311,7 @@ export const books = [
     authors: ['Vikas Hazrati', 'Balaji D Loganathan'],
     categories: ['Software Engineering']
   }, {
-    _id: 147,
+    id: 147,
     title: 'Metaprogramming in .NET',
     isbn: '1617290262',
     pageCount: 0,
@@ -1323,7 +1323,7 @@ export const books = [
     authors: ['Kevin Hazzard', 'Jason Bock'],
     categories: ['Microsoft/.NET']
   }, {
-    _id: 148,
+    id: 148,
     title: 'Portlets and Apache Portals',
     pageCount: 500,
     publishedDate: {
@@ -1336,7 +1336,7 @@ export const books = [
     authors: ['Stefan Hepper', 'Peter Fischer', 'Stephan Hesmer', 'Richard Jacob', 'David Sean Taylor'],
     categories: ['Java']
   }, {
-    _id: 149,
+    id: 149,
     title: 'Code Generation in Action',
     isbn: '1930110979',
     pageCount: 350,
@@ -1350,7 +1350,7 @@ export const books = [
     authors: ['Jack Herrington'],
     categories: ['Programming']
   }, {
-    _id: 150,
+    id: 150,
     title: 'Illustrated Guide to HTTP',
     isbn: '138582262',
     pageCount: 400,
@@ -1363,7 +1363,7 @@ export const books = [
     authors: ['Paul S. Hethmon'],
     categories: ['Internet']
   }, {
-    _id: 152,
+    id: 152,
     title: 'Agile ALM',
     isbn: '1935182633',
     pageCount: 0,
@@ -1377,7 +1377,7 @@ export const books = [
     authors: ['Michael Hüttermann'],
     categories: ['Software Engineering']
   }, {
-    _id: 153,
+    id: 153,
     title: 'Java Network Programming, Second Edition',
     isbn: '188477749X',
     pageCount: 860,
@@ -1390,7 +1390,7 @@ export const books = [
     authors: ['Merlin Hughes', 'Michael Shoffner', '', 'Derek Hamner'],
     categories: ['Java']
   }, {
-    _id: 154,
+    id: 154,
     title: 'Struts in Action',
     isbn: '1932394249',
     pageCount: 672,
@@ -1403,7 +1403,7 @@ export const books = [
     authors: ['Ted N. Husted', 'Cedric Dumoulin', 'George Franciscus', 'David Winterfeldt'],
     categories: ['Java', 'Internet']
   }, {
-    _id: 155,
+    id: 155,
     title: 'Camel in Action',
     isbn: '1935182366',
     pageCount: 375,
@@ -1417,7 +1417,7 @@ export const books = [
     authors: ['Claus Ibsen', 'Jonathan Anstey'],
     categories: ['Java']
   }, {
-    _id: 156,
+    id: 156,
     title: 'Taming Text',
     isbn: '193398838X',
     pageCount: 350,
@@ -1431,7 +1431,7 @@ export const books = [
     authors: ['Grant S. Ingersoll', 'Thomas S. Morton', '', 'Andrew L. Farris'],
     categories: ['Software Engineering']
   }, {
-    _id: 158,
+    id: 158,
     title: 'JBoss in Action',
     isbn: '1933988029',
     pageCount: 496,
@@ -1444,7 +1444,7 @@ export const books = [
     authors: ['Javid Jamae', 'Peter Johnson'],
     categories: ['Java']
   }, {
-    _id: 159,
+    id: 159,
     title: 'Gnuplot in Action',
     isbn: '1933988398',
     pageCount: 400,
@@ -1457,7 +1457,7 @@ export const books = [
     authors: ['Philipp K. Janert'],
     categories: ['Computer Graphics']
   }, {
-    _id: 160,
+    id: 160,
     title: 'Extending and Embedding Perl',
     isbn: '1930110820',
     pageCount: 384,
@@ -1470,7 +1470,7 @@ export const books = [
     authors: ['Tim Jenness', 'Simon Cozens'],
     categories: ['Perl']
   }, {
-    _id: 161,
+    id: 161,
     title: 'iOS 4 in Action',
     isbn: '1617290017',
     pageCount: 504,
@@ -1484,7 +1484,7 @@ export const books = [
     authors: ['Jocelyn Harrington', 'Brandon Trebitowski', 'Christopher Allen', '', 'Shannon Appelcline'],
     categories: ['Mobile Technology']
   }, {
-    _id: 162,
+    id: 162,
     title: 'Elements of Programming with Perl',
     isbn: '1884777805',
     pageCount: 368,
@@ -1497,7 +1497,7 @@ export const books = [
     authors: ['Andrew L. Johnson'],
     categories: ['Perl']
   }, {
-    _id: 163,
+    id: 163,
     title: 'Learn Windows PowerShell in a Month of Lunches',
     isbn: '1617290211',
     pageCount: 0,
@@ -1511,7 +1511,7 @@ export const books = [
     authors: ['Don Jones'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 164,
+    id: 164,
     title: 'R in Action',
     isbn: '1935182390',
     pageCount: 375,
@@ -1525,7 +1525,7 @@ export const books = [
     authors: ['Robert I. Kabacoff'],
     categories: ['Software Engineering']
   }, {
-    _id: 165,
+    id: 165,
     title: 'Android in Practice',
     isbn: '9781935182924',
     pageCount: 0,
@@ -1534,7 +1534,7 @@ export const books = [
     authors: ['Matthias Kaeppler', 'Michael D. Galpin', 'Charlie Collins'],
     categories: ['Mobile Technology']
   }, {
-    _id: 167,
+    id: 167,
     title: 'SOA Security',
     isbn: '1932394680',
     pageCount: 512,
@@ -1547,7 +1547,7 @@ export const books = [
     authors: ['Ramarao Kanneganti', 'Prasad A. Chodavarapu'],
     categories: ['Software Engineering']
   }, {
-    _id: 168,
+    id: 168,
     title: 'Rails 3 in Action',
     isbn: '1935182277',
     pageCount: 425,
@@ -1561,7 +1561,7 @@ export const books = [
     authors: ['Ryan Bigg', 'Yehuda Katz'],
     categories: ['Internet']
   }, {
-    _id: 169,
+    id: 169,
     title: 'Continuous Integration in .NET',
     isbn: '1935182552',
     pageCount: 328,
@@ -1575,7 +1575,7 @@ export const books = [
     authors: ['Marcin Kawalerowicz', 'Craig Berntson'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 170,
+    id: 170,
     title: 'Technology Paradise Lost',
     isbn: '1932394133',
     pageCount: 260,
@@ -1589,7 +1589,7 @@ export const books = [
     authors: ['Erik Keller'],
     categories: ['Business']
   }, {
-    _id: 172,
+    id: 172,
     title: 'Kermit 95+',
     isbn: '1930110057',
     pageCount: 0,
@@ -1602,7 +1602,7 @@ export const books = [
     authors: ['Kermit Project at Columbia University'],
     categories: ['Internet', 'Networking', 'Miscella']
   }, {
-    _id: 173,
+    id: 173,
     title: 'Laszlo in Action',
     isbn: '1932394834',
     pageCount: 552,
@@ -1615,7 +1615,7 @@ export const books = [
     authors: ['Norman Klein', 'Max Carlson with Glenn MacEwen'],
     categories: ['Web Development']
   }, {
-    _id: 174,
+    id: 174,
     title: 'Groovy in Action',
     isbn: '1932394842',
     pageCount: 696,
@@ -1628,7 +1628,7 @@ export const books = [
     authors: ['Dierk Koenig with Andrew Glover', 'Paul King', 'Guillaume Laforge', 'Jon Skeet'],
     categories: ['Java']
   }, {
-    _id: 175,
+    id: 175,
     title: 'Groovy in Action, Second Edition',
     isbn: '1935182447',
     pageCount: 700,
@@ -1639,7 +1639,7 @@ export const books = [
     authors: ['Dierk König', 'Guillaume Laforge', 'Paul King', 'Cédric Champeau', "Hamlet D'Arcy", 'Erik Pragt', '', 'Jon Skeet'],
     categories: ['Java']
   }, {
-    _id: 176,
+    id: 176,
     title: 'Object Technology Centers of Excellence',
     isbn: '132612313',
     pageCount: 200,
@@ -1653,7 +1653,7 @@ export const books = [
     authors: ['Timothy D. Korson', 'Vijay K. Vaishnavi'],
     categories: ['Object-Technology Programming', '']
   }, {
-    _id: 177,
+    id: 177,
     title: 'Test Driven',
     isbn: '1932394850',
     pageCount: 544,
@@ -1666,7 +1666,7 @@ export const books = [
     authors: ['Lasse Koskela'],
     categories: ['Software Engineering']
   }, {
-    _id: 178,
+    id: 178,
     title: 'Effective Unit Testing',
     isbn: '1935182579',
     pageCount: 350,
@@ -1678,7 +1678,7 @@ export const books = [
     authors: ['Lasse Koskela'],
     categories: ['Java']
   }, {
-    _id: 179,
+    id: 179,
     title: 'Making Java Groovy',
     isbn: '1935182943',
     pageCount: 0,
@@ -1692,7 +1692,7 @@ export const books = [
     authors: ['Kenneth A. Kousen'],
     categories: ['Java']
   }, {
-    _id: 180,
+    id: 180,
     title: 'The Awesome Power of Direct3D/DirectX',
     isbn: '1884777473',
     pageCount: 840,
@@ -1706,7 +1706,7 @@ export const books = [
     authors: ['Peter J. Kovach'],
     categories: ['Computer Graphics']
   }, {
-    _id: 181,
+    id: 181,
     title: 'Practical Software Requirements',
     isbn: '1884777597',
     pageCount: 448,
@@ -1719,7 +1719,7 @@ export const books = [
     authors: ['Benjamin L. Kovitz'],
     categories: ['Software Engineering', 'Theory']
   }, {
-    _id: 182,
+    id: 182,
     title: 'NHibernate in Action',
     isbn: '1932394923',
     pageCount: 400,
@@ -1732,7 +1732,7 @@ export const books = [
     authors: ['Pierre Henri Kuate', 'Tobin Harris', 'Christian Bauer', '', 'Gavin King'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 183,
+    id: 183,
     title: 'Microsoft Reporting Services in Action',
     isbn: '1932394222',
     pageCount: 656,
@@ -1745,7 +1745,7 @@ export const books = [
     authors: ['Teo Lachev'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 184,
+    id: 184,
     title: 'AspectJ in Action',
     isbn: '1930110936',
     pageCount: 512,
@@ -1758,7 +1758,7 @@ export const books = [
     authors: ['Ramnivas Laddad'],
     categories: ['Java']
   }, {
-    _id: 185,
+    id: 185,
     title: 'AspectJ in Action, Second Edition',
     isbn: '1933988053',
     pageCount: 568,
@@ -1772,7 +1772,7 @@ export const books = [
     authors: ['Ramnivas Laddad'],
     categories: ['Java']
   }, {
-    _id: 186,
+    id: 186,
     title: 'Hadoop in Action',
     isbn: '1935182196',
     pageCount: 325,
@@ -1786,7 +1786,7 @@ export const books = [
     authors: ['Chuck Lam'],
     categories: ['Java']
   }, {
-    _id: 187,
+    id: 187,
     title: 'SQR in PeopleSoft and Other Applications',
     isbn: '1884777775',
     pageCount: 600,
@@ -1799,7 +1799,7 @@ export const books = [
     authors: ['Galina', 'Vlad Landres'],
     categories: ['Business', 'Client-Server']
   }, {
-    _id: 188,
+    id: 188,
     title: 'SQR in PeopleSoft and Other Applications, Second Edition',
     isbn: '1932394001',
     pageCount: 696,
@@ -1812,7 +1812,7 @@ export const books = [
     authors: ['Galina Landres', 'Vlad Landres'],
     categories: ['Business', 'Client-Server']
   }, {
-    _id: 189,
+    id: 189,
     title: 'F# in Action',
     isbn: '1935182250',
     pageCount: 425,
@@ -1823,7 +1823,7 @@ export const books = [
     authors: ['Amanda Laucher'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 190,
+    id: 190,
     title: 'Tuscany SCA in Action',
     isbn: '1933988894',
     pageCount: 472,
@@ -1837,7 +1837,7 @@ export const books = [
     authors: ['Simon Laws', 'Mark Combellack', 'Raymond Feng', 'Haleh Mahbod', 'Simon Nash'],
     categories: ['Java']
   }, {
-    _id: 192,
+    id: 192,
     title: 'Client/Server Yellow Pages',
     isbn: '1884777082',
     pageCount: 280,
@@ -1851,7 +1851,7 @@ export const books = [
     authors: ['Compiled', 'introduced by Ted Lewis'],
     categories: ['Client-Server']
   }, {
-    _id: 193,
+    id: 193,
     title: 'Object Oriented Application Frameworks',
     isbn: '1884777066',
     pageCount: 352,
@@ -1865,7 +1865,7 @@ export const books = [
     authors: ['Ted Lewis', 'friends'],
     categories: ['Object-Oriented Programming']
   }, {
-    _id: 194,
+    id: 194,
     title: 'Tapestry in Action',
     isbn: '1932394117',
     pageCount: 580,
@@ -1878,7 +1878,7 @@ export const books = [
     authors: ['Howard M. Lewis Ship'],
     categories: ['Java', 'Internet']
   }, {
-    _id: 195,
+    id: 195,
     title: 'WebWork in Action',
     isbn: '1932394532',
     pageCount: 400,
@@ -1891,7 +1891,7 @@ export const books = [
     authors: ['Patrick Lightbody', 'Jason Carreira'],
     categories: ['internet']
   }, {
-    _id: 196,
+    id: 196,
     title: 'MacRuby in Action',
     isbn: '1935182498',
     pageCount: 0,
@@ -1903,7 +1903,7 @@ export const books = [
     authors: ['Brendan G. Lim with Jerry Cheung', 'Jeremy McAnally'],
     categories: ['Programming']
   }, {
-    _id: 197,
+    id: 197,
     title: 'Erlang and OTP in Action',
     isbn: '1933988789',
     pageCount: 500,
@@ -1917,7 +1917,7 @@ export const books = [
     authors: ['Martin Logan', 'Eric Merritt', '', 'Richard Carlsson'],
     categories: ['Programming']
   }, {
-    _id: 198,
+    id: 198,
     title: "SharePoint 2007 Developer's Guide to Business Data Catalog",
     isbn: '1933988819',
     pageCount: 304,
@@ -1931,7 +1931,7 @@ export const books = [
     authors: ['Brett Lonsdale', 'Nick Swan'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 199,
+    id: 199,
     title: 'Doing IT Right',
     isbn: '133964256',
     pageCount: 350,
@@ -1945,7 +1945,7 @@ export const books = [
     authors: ['Harold Lorin'],
     categories: ['Business', 'Software Engineering']
   }, {
-    _id: 200,
+    id: 200,
     title: 'Adobe AIR in Action',
     isbn: '1933988487',
     pageCount: 336,
@@ -1958,7 +1958,7 @@ export const books = [
     authors: ['Joey Lott', 'Kathryn Rotondo', 'Sam Ahn', 'Ashley Atkins'],
     categories: ['Web Development']
   }, {
-    _id: 201,
+    id: 201,
     title: 'Ant in Action',
     isbn: '193239480X',
     pageCount: 600,
@@ -1972,7 +1972,7 @@ export const books = [
     authors: ['Steve Loughran', 'Erik Hatcher'],
     categories: ['Java']
   }, {
-    _id: 202,
+    id: 202,
     title: 'Restlet in Action',
     isbn: '193518234X',
     pageCount: 450,
@@ -1986,7 +1986,7 @@ export const books = [
     authors: ['Jerome Louvel', 'Thierry Boileau', '', 'Philippe Mougin'],
     categories: ['Internet']
   }, {
-    _id: 203,
+    id: 203,
     title: 'iText in Action',
     isbn: '1932394796',
     pageCount: 688,
@@ -2000,7 +2000,7 @@ export const books = [
     authors: ['Bruno Lowagie'],
     categories: ['Web Development']
   }, {
-    _id: 204,
+    id: 204,
     title: 'iText in Action, Second Edition',
     isbn: '1935182617',
     pageCount: 600,
@@ -2014,7 +2014,7 @@ export const books = [
     authors: ['Bruno Lowagie'],
     categories: ['Java']
   }, {
-    _id: 205,
+    id: 205,
     title: 'Power-3D',
     isbn: '138412146',
     pageCount: 550,
@@ -2027,7 +2027,7 @@ export const books = [
     authors: ['Kyle Lussier'],
     categories: ['Computer Graphics']
   }, {
-    _id: 206,
+    id: 206,
     title: 'SNA and TCP/IP Enterprise Networking',
     isbn: '131271687',
     pageCount: 540,
@@ -2041,7 +2041,7 @@ export const books = [
     authors: ['Daniel C. Lynch', 'James P. Gray', 'and Edward Rabinovitch', 'editors'],
     categories: ['Software Engineering', 'Theory']
   }, {
-    _id: 208,
+    id: 208,
     title: 'Subversion in Action',
     isbn: '1932394478',
     pageCount: 356,
@@ -2055,7 +2055,7 @@ export const books = [
     authors: ['Jeffrey Machols'],
     categories: ['Java']
   }, {
-    _id: 209,
+    id: 209,
     title: 'Minimal Perl',
     isbn: '1932394508',
     pageCount: 504,
@@ -2068,7 +2068,7 @@ export const books = [
     authors: ['Tim Maher'],
     categories: ['Perl']
   }, {
-    _id: 210,
+    id: 210,
     title: 'Distributed Programming with Java',
     isbn: '1884777651',
     pageCount: 320,
@@ -2081,7 +2081,7 @@ export const books = [
     authors: ['Qusay H. Mahmoud'],
     categories: ['Java']
   }, {
-    _id: 211,
+    id: 211,
     title: 'Comprehensive Networking Glossary and Acronym Guide',
     isbn: '013319955X',
     pageCount: 208,
@@ -2095,7 +2095,7 @@ export const books = [
     authors: ['Gary Scott Malkin'],
     categories: ['Internet']
   }, {
-    _id: 212,
+    id: 212,
     title: 'JavaServer Faces in Action',
     isbn: '1932394125',
     pageCount: 744,
@@ -2108,7 +2108,7 @@ export const books = [
     authors: ['Kito D. Mann'],
     categories: ['Java']
   }, {
-    _id: 213,
+    id: 213,
     title: 'LINQ in Action',
     isbn: '1933988169',
     pageCount: 576,
@@ -2121,7 +2121,7 @@ export const books = [
     authors: ['Fabrice Marguerie', 'Steve Eichert', 'Jim Wooley'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 214,
+    id: 214,
     title: 'Internet BBSs',
     isbn: '132869985',
     pageCount: 400,
@@ -2135,7 +2135,7 @@ export const books = [
     authors: ['Richard Scott Mark'],
     categories: ['Internet']
   }, {
-    _id: 215,
+    id: 215,
     title: 'Algorithms of the Intelligent Web',
     isbn: '1933988665',
     pageCount: 368,
@@ -2148,7 +2148,7 @@ export const books = [
     authors: ['Haralambos Marmanis', 'Dmitry Babenko'],
     categories: ['Web Development']
   }, {
-    _id: 216,
+    id: 216,
     title: 'JUnit in Action',
     isbn: '1930110995',
     pageCount: 384,
@@ -2161,7 +2161,7 @@ export const books = [
     authors: ['Vincent Massol with Ted Husted'],
     categories: ['Java']
   }, {
-    _id: 217,
+    id: 217,
     title: 'Tika in Action',
     isbn: '1935182854',
     pageCount: 0,
@@ -2173,7 +2173,7 @@ export const books = [
     authors: ['Chris A. Mattmann', 'Jukka L. Zitting'],
     categories: ['Java']
   }, {
-    _id: 218,
+    id: 218,
     title: 'Ruby in Practice',
     isbn: '1933988479',
     pageCount: 360,
@@ -2186,7 +2186,7 @@ export const books = [
     authors: ['Jeremy McAnally', 'Assaf Arkin'],
     categories: ['Programming']
   }, {
-    _id: 219,
+    id: 219,
     title: 'Inside LotusScript',
     isbn: '1884777481',
     pageCount: 420,
@@ -2200,7 +2200,7 @@ export const books = [
     authors: ['Joe McGinn'],
     categories: ['Business']
   }, {
-    _id: 220,
+    id: 220,
     title: 'Maximum MIDI',
     isbn: '1884777449',
     pageCount: 450,
@@ -2213,7 +2213,7 @@ export const books = [
     authors: ['Paul Messick'],
     categories: ['Programming']
   }, {
-    _id: 221,
+    id: 221,
     title: 'Planning and Managing ATM Networks',
     isbn: '132621894',
     pageCount: 320,
@@ -2227,7 +2227,7 @@ export const books = [
     authors: ['Daniel Minoli', 'Thomas W. Golway', '', 'Norris P. Smith'],
     categories: ['Client-Server', 'Networking']
   }, {
-    _id: 222,
+    id: 222,
     title: 'Client/Server Applications on ATM Networks',
     isbn: '137353006',
     pageCount: 350,
@@ -2241,7 +2241,7 @@ export const books = [
     authors: ['Daniel Minoli', 'Andrew Schmidt'],
     categories: ['Client-Server', 'Networking']
   }, {
-    _id: 223,
+    id: 223,
     title: 'JavaFX in Action',
     isbn: '1933988991',
     pageCount: 373,
@@ -2254,7 +2254,7 @@ export const books = [
     authors: ['Simon Morris'],
     categories: ['Java']
   }, {
-    _id: 224,
+    id: 224,
     title: 'Entity Framework 4 in Action',
     isbn: '1935182188',
     pageCount: 576,
@@ -2268,7 +2268,7 @@ export const books = [
     authors: ['Stefano Mostarda', 'Marco De Sanctis', '', 'Daniele Bochicchio'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 225,
+    id: 225,
     title: 'ASP.NET 2.0 Web Parts in Action',
     isbn: '193239477X',
     pageCount: 344,
@@ -2282,7 +2282,7 @@ export const books = [
     authors: ['Darren Neimke'],
     categories: ['Microsoft']
   }, {
-    _id: 226,
+    id: 226,
     title: 'Sass and Compass in Action',
     isbn: '1617290149',
     pageCount: 300,
@@ -2296,7 +2296,7 @@ export const books = [
     authors: ['Wynn Netherland', 'Nathan Weizenbaum', 'Chris Eppstein', '', 'Brandon Mathis'],
     categories: ['Web Development']
   }, {
-    _id: 227,
+    id: 227,
     title: 'Core OWL 5.0',
     isbn: '1884777503',
     pageCount: 500,
@@ -2310,7 +2310,7 @@ export const books = [
     authors: ['Ted Neward'],
     categories: ['Programming']
   }, {
-    _id: 228,
+    id: 228,
     title: 'Advanced OWL 5.0',
     isbn: '1884777465',
     pageCount: 570,
@@ -2324,7 +2324,7 @@ export const books = [
     authors: ['Ted Neward'],
     categories: ['Programming']
   }, {
-    _id: 229,
+    id: 229,
     title: 'Server-Based Java Programming',
     isbn: '1884777716',
     pageCount: 592,
@@ -2337,7 +2337,7 @@ export const books = [
     authors: ['Ted Neward'],
     categories: ['Java', 'Client-Server', 'Internet']
   }, {
-    _id: 230,
+    id: 230,
     title: 'SQL Server MVP Deep Dives',
     isbn: '1935182048',
     pageCount: 848,
@@ -2351,7 +2351,7 @@ export const books = [
     authors: ['Contributions from 53 SQL Server MVPs', 'Edited by Paul Nielsen', 'Kalen Delaney', 'Greg Low', 'Adam Machanic', 'Paul S. Randal', '', 'Kimberly L. Tripp'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 231,
+    id: 231,
     title: 'SQL Server MVP Deep Dives',
     isbn: '9781935182047',
     pageCount: 848,
@@ -2365,7 +2365,7 @@ export const books = [
     authors: ['Contributions from 53 SQL Server MVPs; Edited by Paul Nielsen', 'Kalen Delaney', 'Greg Low', 'Adam Machanic', 'Paul S. Randal', '', 'Kimberly L. Tripp'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 232,
+    id: 232,
     title: 'SQL Server MVP Deep Dives',
     isbn: '9781935182047',
     pageCount: 848,
@@ -2377,7 +2377,7 @@ export const books = [
     authors: ['Paul Nielsen', 'Kalen Delaney', 'Greg Low', 'Adam Machanic', 'Paul S. Randal', '', 'Kimberly L. Tripp'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 233,
+    id: 233,
     title: 'PostGIS in Action',
     isbn: '1935182269',
     pageCount: 325,
@@ -2391,7 +2391,7 @@ export const books = [
     authors: ['Regina O. Obe', 'Leo S. Hsu'],
     categories: ['Internet']
   }, {
-    _id: 235,
+    id: 235,
     title: 'Programming Mac OS X',
     isbn: '1930110855',
     pageCount: 384,
@@ -2405,7 +2405,7 @@ export const books = [
     authors: ["Kevin O'Malley"],
     categories: ['Programming']
   }, {
-    _id: 236,
+    id: 236,
     title: 'The Art of Unit Testing',
     isbn: '1933988274',
     pageCount: 320,
@@ -2418,7 +2418,7 @@ export const books = [
     authors: ['Roy Osherove'],
     categories: ['Software Engineering']
   }, {
-    _id: 237,
+    id: 237,
     title: 'Mahout in Action',
     isbn: '1935182684',
     pageCount: 375,
@@ -2430,7 +2430,7 @@ export const books = [
     authors: ['Sean Owen', 'Robin Anil', 'Ted Dunning', '', 'Ellen Friedman'],
     categories: ['Java']
   }, {
-    _id: 238,
+    id: 238,
     title: 'ASP.NET MVC in Action',
     isbn: '1933988622',
     pageCount: 392,
@@ -2444,7 +2444,7 @@ export const books = [
     authors: ['Jeffrey Palermo', 'Ben Scheirman', '', 'Jimmy Bogard'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 239,
+    id: 239,
     title: 'ASP.NET MVC 2 in Action',
     isbn: '193518279X',
     pageCount: 432,
@@ -2458,7 +2458,7 @@ export const books = [
     authors: ['Jeffrey Palermo', 'Ben Scheirman', 'Jimmy Bogard', 'Eric Hexter', '', 'Matthew Hinze'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 240,
+    id: 240,
     title: 'ASP.NET MVC 4 in Action',
     isbn: '1617290416',
     pageCount: 450,
@@ -2472,7 +2472,7 @@ export const books = [
     authors: ['Jeffrey Palermo', 'Jimmy Bogard', 'Eric Hexter', 'Matthew Hinze', '', 'Jeremy Skinner'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 241,
+    id: 241,
     title: 'EJB 3 in Action',
     isbn: '1933988347',
     pageCount: 712,
@@ -2485,7 +2485,7 @@ export const books = [
     authors: ['Debu Panda', 'Reza Rahman', 'Derek Lane'],
     categories: ['Java']
   }, {
-    _id: 242,
+    id: 242,
     title: 'EJB 3 in Action, Second Edition',
     isbn: '1935182994',
     pageCount: 0,
@@ -2499,7 +2499,7 @@ export const books = [
     authors: ['Debu Panda', 'Reza Rahman', 'Ryan Cuprak', '', 'Michael Remijan'],
     categories: ['Java']
   }, {
-    _id: 243,
+    id: 243,
     title: "Explorer's Guide to the Semantic Web",
     isbn: '1932394206',
     pageCount: 304,
@@ -2513,7 +2513,7 @@ export const books = [
     authors: ['Thomas B. Passin'],
     categories: ['Internet', 'Theory', 'XML']
   }, {
-    _id: 244,
+    id: 244,
     title: 'Practical LotusScript',
     isbn: '1884777767',
     pageCount: 512,
@@ -2526,7 +2526,7 @@ export const books = [
     authors: ['Anthony Patton'],
     categories: ['Business']
   }, {
-    _id: 245,
+    id: 245,
     title: 'Domino Development with Java',
     isbn: '1930110049',
     pageCount: 467,
@@ -2539,7 +2539,7 @@ export const books = [
     authors: ['Anthony Patton'],
     categories: ['Java']
   }, {
-    _id: 246,
+    id: 246,
     title: 'Windows PowerShell in Action',
     isbn: '1932394907',
     pageCount: 576,
@@ -2553,7 +2553,7 @@ export const books = [
     authors: ['Bruce Payette'],
     categories: ['Microsoft']
   }, {
-    _id: 247,
+    id: 247,
     title: 'Windows PowerShell in Action, Second Edition',
     isbn: '1935182137',
     pageCount: 700,
@@ -2567,7 +2567,7 @@ export const books = [
     authors: ['Bruce Payette'],
     categories: ['Microsoft']
   }, {
-    _id: 248,
+    id: 248,
     title: 'Silverlight 4 in Action, Revised Edition',
     isbn: '1935182374',
     pageCount: 425,
@@ -2581,7 +2581,7 @@ export const books = [
     authors: ['Pete Brown'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 249,
+    id: 249,
     title: 'Silverlight 5 in Action',
     isbn: '1617290319',
     pageCount: 925,
@@ -2593,7 +2593,7 @@ export const books = [
     authors: ['Pete Brown'],
     categories: ['Microsoft', '.NET']
   }, {
-    _id: 250,
+    id: 250,
     title: 'Hibernate Quickly',
     isbn: '1932394419',
     pageCount: 456,
@@ -2607,7 +2607,7 @@ export const books = [
     authors: ['Patrick Peak', 'Nick Heudecker'],
     categories: ['Java']
   }, {
-    _id: 251,
+    id: 251,
     title: 'Generative Art',
     isbn: '1935182625',
     pageCount: 0,
@@ -2619,7 +2619,7 @@ export const books = [
     authors: ['Matt Pearson'],
     categories: ['Algorithmic Art']
   }, {
-    _id: 252,
+    id: 252,
     title: 'Windows Phone 7 in Action',
     isbn: '1617290092',
     pageCount: 0,
@@ -2633,7 +2633,7 @@ export const books = [
     authors: ['Timothy Binkley-Jones', 'Massimo Perga', '', 'Michael Sync'],
     categories: ['Mobile Technology']
   }, {
-    _id: 253,
+    id: 253,
     title: 'Lift in Action',
     isbn: '1935182803',
     pageCount: 450,
@@ -2645,7 +2645,7 @@ export const books = [
     authors: ['Timothy Perrett'],
     categories: ['Java']
   }, {
-    _id: 254,
+    id: 254,
     title: 'Web Development with Apache and Perl',
     isbn: '1930110065',
     pageCount: 424,
@@ -2658,7 +2658,7 @@ export const books = [
     authors: ['Theo Petersen'],
     categories: ['Perl', 'Client-Server']
   }, {
-    _id: 255,
+    id: 255,
     title: 'Real-World Functional Programming',
     isbn: '1933988924',
     pageCount: 560,
@@ -2672,7 +2672,7 @@ export const books = [
     authors: ['Tomas Petricek with Jon Skeet'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 256,
+    id: 256,
     title: 'Machine Learning in Action',
     isbn: '1617290181',
     pageCount: 0,
@@ -2686,7 +2686,7 @@ export const books = [
     authors: ['Peter Harrington'],
     categories: ['Software Engineering']
   }, {
-    _id: 257,
+    id: 257,
     title: 'Dependency Injection',
     isbn: '193398855X',
     pageCount: 352,
@@ -2700,7 +2700,7 @@ export const books = [
     authors: ['Dhanji R. Prasanna'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 258,
+    id: 258,
     title: 'Understanding Enterprise SOA',
     isbn: '1932394591',
     pageCount: 280,
@@ -2714,7 +2714,7 @@ export const books = [
     authors: ['Eric Pulier and Hugh Taylor', 'Foreword by Paul Gaffney'],
     categories: ['Theory']
   }, {
-    _id: 259,
+    id: 259,
     title: 'Open-Source ESBs in Action',
     isbn: '1933988215',
     pageCount: 528,
@@ -2727,7 +2727,7 @@ export const books = [
     authors: ['Tijs Rademakers', 'Jos Dirksen'],
     categories: ['Business']
   }, {
-    _id: 260,
+    id: 260,
     title: 'Activiti in Action',
     isbn: '1617290122',
     pageCount: 0,
@@ -2739,7 +2739,7 @@ export const books = [
     authors: ['Tijs Rademakers'],
     categories: ['Software Engineering']
   }, {
-    _id: 261,
+    id: 261,
     title: 'DSLs in Boo: Domain-Specific Languages in .NET',
     isbn: '1933988606',
     pageCount: 352,
@@ -2753,7 +2753,7 @@ export const books = [
     authors: ['Oren Eini writing as Ayende Rahien'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 262,
+    id: 262,
     title: 'JUnit Recipes',
     isbn: '1932394230',
     pageCount: 752,
@@ -2766,7 +2766,7 @@ export const books = [
     authors: ['J. B. Rainsberger with contributions by Scott Stirling'],
     categories: ['Java']
   }, {
-    _id: 263,
+    id: 263,
     title: 'wxPython in Action',
     isbn: '1932394621',
     pageCount: 620,
@@ -2780,7 +2780,7 @@ export const books = [
     authors: ['Noel Rappin', 'Robin Dunn'],
     categories: ['Python']
   }, {
-    _id: 264,
+    id: 264,
     title: 'Clojure in Action',
     isbn: '1935182595',
     pageCount: 475,
@@ -2794,7 +2794,7 @@ export const books = [
     authors: ['Amit Rathore'],
     categories: ['Java']
   }, {
-    _id: 265,
+    id: 265,
     title: 'Scala in Action',
     isbn: '1935182757',
     pageCount: 0,
@@ -2806,7 +2806,7 @@ export const books = [
     authors: ['Nilanjan Raychaudhuri'],
     categories: ['Java']
   }, {
-    _id: 266,
+    id: 266,
     title: 'Working with Objects',
     isbn: '134529308',
     pageCount: 420,
@@ -2820,7 +2820,7 @@ export const books = [
     authors: ['Trygve Reenskaug'],
     categories: ['Object-Oriented Programming']
   }, {
-    _id: 267,
+    id: 267,
     title: 'PHP in Action',
     isbn: '1932394753',
     pageCount: 552,
@@ -2834,7 +2834,7 @@ export const books = [
     authors: ['Dagfinn Reiersøl with Marcus Baker', 'Chris Shiflett'],
     categories: ['PHP']
   }, {
-    _id: 269,
+    id: 269,
     title: 'Secrets of the JavaScript Ninja',
     isbn: '193398869X',
     pageCount: 300,
@@ -2848,7 +2848,7 @@ export const books = [
     authors: ['John Resig'],
     categories: ['Java']
   }, {
-    _id: 270,
+    id: 270,
     title: 'Microsoft Office Essentials',
     isbn: '132623129',
     pageCount: 480,
@@ -2862,7 +2862,7 @@ export const books = [
     authors: ['Ronny Richardson'],
     categories: ['Business']
   }, {
-    _id: 271,
+    id: 271,
     title: 'Swing',
     isbn: '1884777848',
     pageCount: 0,
@@ -2873,7 +2873,7 @@ export const books = [
     authors: ['Matthew Robinson', 'Pavel Vorobiev'],
     categories: ['Java']
   }, {
-    _id: 272,
+    id: 272,
     title: 'Swing Second Edition',
     isbn: '193011088X',
     pageCount: 912,
@@ -2886,7 +2886,7 @@ export const books = [
     authors: [],
     categories: ['Java', 'Internet']
   }, {
-    _id: 273,
+    id: 273,
     title: 'The Awesome Power of Java Beans',
     isbn: '1884777562',
     pageCount: 500,
@@ -2899,7 +2899,7 @@ export const books = [
     authors: ['Lawrence H. Rodrigues'],
     categories: ['Java']
   }, {
-    _id: 274,
+    id: 274,
     title: 'Personal Videoconferencing',
     isbn: '013268327X',
     pageCount: 420,
@@ -2913,7 +2913,7 @@ export const books = [
     authors: ['Evan Rosen'],
     categories: ['Networking']
   }, {
-    _id: 275,
+    id: 275,
     title: 'The Cloud at Your Service',
     isbn: '1935182528',
     pageCount: 200,
@@ -2925,7 +2925,7 @@ export const books = [
     authors: ['Jothy Rosenberg', 'Arthur Mateos'],
     categories: ['Internet']
   }, {
-    _id: 276,
+    id: 276,
     title: 'Implementing Elliptic Curve Cryptography',
     isbn: '1884777694',
     pageCount: 330,
@@ -2939,7 +2939,7 @@ export const books = [
     authors: ['Michael Rosing'],
     categories: ['Theory']
   }, {
-    _id: 277,
+    id: 277,
     title: 'SOA Patterns',
     isbn: '1933988266',
     pageCount: 250,
@@ -2953,7 +2953,7 @@ export const books = [
     authors: ['Arnon Rotem-Gal-Oz'],
     categories: ['SOA']
   }, {
-    _id: 278,
+    id: 278,
     title: 'Hello World!',
     isbn: '1933988495',
     pageCount: 432,
@@ -2967,7 +2967,7 @@ export const books = [
     authors: ['Warren D. Sande', 'Carter Sande'],
     categories: ['Programming', 'Python']
   }, {
-    _id: 279,
+    id: 279,
     title: 'SCBCD Exam Study Kit',
     isbn: '1932394400',
     pageCount: 488,
@@ -2980,7 +2980,7 @@ export const books = [
     authors: ['Paul Sanghera'],
     categories: ['Java']
   }, {
-    _id: 280,
+    id: 280,
     title: 'Portlets in Action',
     isbn: '1935182544',
     pageCount: 475,
@@ -2994,7 +2994,7 @@ export const books = [
     authors: ['Ashish Sarin'],
     categories: ['Java']
   }, {
-    _id: 281,
+    id: 281,
     title: 'SWT/JFace in Action',
     isbn: '1932394273',
     pageCount: 496,
@@ -3008,7 +3008,7 @@ export const books = [
     authors: ['Matthew Scarpino', 'Stephen Holder', 'Stanford Ng', '', 'Laurent Mihalkovic'],
     categories: ['Java']
   }, {
-    _id: 282,
+    id: 282,
     title: 'OpenCL in Action',
     isbn: '1617290173',
     pageCount: 0,
@@ -3020,7 +3020,7 @@ export const books = [
     authors: ['Matthew Scarpino'],
     categories: ['Programming']
   }, {
-    _id: 283,
+    id: 283,
     title: 'Multiprotocol over ATM',
     isbn: '138892709',
     pageCount: 341,
@@ -3034,7 +3034,7 @@ export const books = [
     authors: ['Andrew Schmidt', 'Daniel Minoli'],
     categories: ['Internet', 'Networking']
   }, {
-    _id: 284,
+    id: 284,
     title: 'Dependency Injection in .NET',
     isbn: '1935182501',
     pageCount: 375,
@@ -3048,7 +3048,7 @@ export const books = [
     authors: ['Mark Seemann'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 285,
+    id: 285,
     title: 'Java 3D Programming',
     isbn: '1930110359',
     pageCount: 400,
@@ -3061,7 +3061,7 @@ export const books = [
     authors: ['Daniel Selman'],
     categories: ['Java', 'Internet', 'Computer Graph']
   }, {
-    _id: 286,
+    id: 286,
     title: 'Liferay in Action',
     isbn: '193518282X',
     pageCount: 375,
@@ -3073,7 +3073,7 @@ export const books = [
     authors: ['Richard Sezov', 'Jr'],
     categories: ['Internet']
   }, {
-    _id: 287,
+    id: 287,
     title: 'JSP Tag Libraries',
     isbn: '193011009X',
     pageCount: 656,
@@ -3086,7 +3086,7 @@ export const books = [
     authors: ['Gal Shachor', 'Adam Chace', 'Magnus Rydin'],
     categories: ['Java', 'Internet']
   }, {
-    _id: 289,
+    id: 289,
     title: 'Instant Messaging in Java',
     isbn: '1930110464',
     pageCount: 402,
@@ -3100,7 +3100,7 @@ export const books = [
     authors: ['Iain Shigeoka'],
     categories: ['Internet', 'Java']
   }, {
-    _id: 290,
+    id: 290,
     title: 'Java Applets and Channels Without Programming',
     isbn: '1884777392',
     pageCount: 372,
@@ -3114,7 +3114,7 @@ export const books = [
     authors: ['Ronny Richardson', 'Michael Shoffner', 'Marq Singer', 'Bruce Murray', '', 'Jack Gambol'],
     categories: ['Java']
   }, {
-    _id: 291,
+    id: 291,
     title: 'PowerShell in Practice',
     isbn: '1935182005',
     pageCount: 500,
@@ -3128,7 +3128,7 @@ export const books = [
     authors: ['Richard Siddaway'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 292,
+    id: 292,
     title: 'PowerShell and WMI',
     isbn: '1617290114',
     pageCount: 0,
@@ -3140,7 +3140,7 @@ export const books = [
     authors: ['Richard Siddaway'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 293,
+    id: 293,
     title: 'Making Sense of Java',
     isbn: '132632942',
     pageCount: 180,
@@ -3154,7 +3154,7 @@ export const books = [
     authors: ['Bruce Simpson', 'John Mitchell', 'Brian Christeson', 'Rehan Zaidi', '', 'Jonathan Levine'],
     categories: ['Java', 'Business']
   }, {
-    _id: 294,
+    id: 294,
     title: 'C++/CLI in Action',
     isbn: '1932394818',
     pageCount: 416,
@@ -3168,7 +3168,7 @@ export const books = [
     authors: ['Nishant Sivakumar'],
     categories: ['Microsoft']
   }, {
-    _id: 295,
+    id: 295,
     title: 'C# in Depth',
     isbn: '1933988363',
     pageCount: 424,
@@ -3181,7 +3181,7 @@ export const books = [
     authors: ['Jon Skeet'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 296,
+    id: 296,
     title: 'C# in Depth, Second Edition',
     isbn: '1935182471',
     pageCount: 584,
@@ -3192,7 +3192,7 @@ export const books = [
     authors: ['Jon Skeet'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 297,
+    id: 297,
     title: 'Magical A-Life Avatars',
     isbn: '1884777589',
     pageCount: 450,
@@ -3206,7 +3206,7 @@ export const books = [
     authors: ['Peter Small'],
     categories: ['Internet', 'Theory']
   }, {
-    _id: 298,
+    id: 298,
     title: 'Becoming Agile',
     isbn: '1933988258',
     pageCount: 408,
@@ -3220,7 +3220,7 @@ export const books = [
     authors: ['Greg Smith', 'Ahmed Sidky'],
     categories: ['Software Engineering']
   }, {
-    _id: 299,
+    id: 299,
     title: 'ActiveMQ in Action',
     isbn: '1933988940',
     pageCount: 408,
@@ -3234,7 +3234,7 @@ export const books = [
     authors: ['Bruce Snyder', 'Dejan Bosanac', '', 'Rob Davies'],
     categories: ['Java']
   }, {
-    _id: 300,
+    id: 300,
     title: 'Implementing PeopleSoft Financials',
     isbn: '138411808',
     pageCount: 220,
@@ -3248,7 +3248,7 @@ export const books = [
     authors: ['Early Stephens'],
     categories: ['Business', 'Client-Server']
   }, {
-    _id: 302,
+    id: 302,
     title: 'SQL Server DMVs in Action',
     isbn: '1935182730',
     pageCount: 352,
@@ -3262,7 +3262,7 @@ export const books = [
     authors: ['Ian W. Stirk'],
     categories: ['Microsoft .NET']
   }, {
-    _id: 303,
+    id: 303,
     title: 'Scala in Depth',
     isbn: '1935182706',
     pageCount: 0,
@@ -3276,7 +3276,7 @@ export const books = [
     authors: ['Joshua D. Suereth'],
     categories: ['Java']
   }, {
-    _id: 304,
+    id: 304,
     title: 'JMX in Action',
     isbn: '1930110561',
     pageCount: 424,
@@ -3289,7 +3289,7 @@ export const books = [
     authors: ['Benjamin G. Sullins', 'Mark B. Whipple'],
     categories: ['Java']
   }, {
-    _id: 305,
+    id: 305,
     title: 'EJB Cookbook',
     isbn: '1930110944',
     pageCount: 352,

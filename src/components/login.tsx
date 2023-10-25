@@ -1,5 +1,5 @@
 'use client'
-import { registerNewUsers, singIn, singInWithGoogle } from '@/data/firebase'
+import { registerNewUsers, singIn, singInWithGoogle, singOut } from '@/data/firebase'
 import { userAuth } from '@/store/userStore'
 
 import { useState } from 'react'
@@ -8,12 +8,17 @@ const initialState = {
   password: ''
 }
 export const Login = () => {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
   const [login, setLogin] = useState(true)
   const [formulario, setFormulario] = useState(initialState)
   const [error, setError] = useState(null)
 
-  const { setAuth, authenticate, email } = userAuth()
+  const { setAuth, authenticate } = userAuth()
+  console.log(authenticate)
+  const handleLogout = () => {
+    singOut()
+    setAuth(false, '')
+  }
 
   const handleChange = (e: any) => {
     console.log(authenticate)
@@ -150,12 +155,21 @@ export const Login = () => {
                     </form>
                 </div>
             </div>
-            <button
+            {
+              !authenticate
+                ? <button
                 onClick={() => { setOpen(true) }}
                 className="absolute z-[500] right-0 m-5 justify-center font-medium ring-offset-background h-10 px-2 py-1 bg-gray-800 text-white rounded-lg flex items-center space-x-2 text-sm"
                 type="button">
-                <span>{!authenticate ? 'Iniciar Sesion' : email}</span>
+                <span>Iniciar Sesion</span>
             </button>
+                : <button
+            onClick={ handleLogout }
+            className="absolute z-[500] right-0 m-5 justify-center font-medium ring-offset-background h-10 px-2 py-1 bg-gray-800 text-white rounded-lg flex items-center space-x-2 text-sm"
+            type="button">
+            <span>Cerrar Sesion</span>
+        </button>
+            }
         </>
   )
 }

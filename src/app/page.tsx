@@ -33,7 +33,7 @@ export default function Home () {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {
                 books.filter(book => book.categories.includes(category)).slice(0, 3).map((book, i) => (
-                  <div key={book._id} className="rounded overflow-hidden w-full">
+                  <div key={book.id} className="rounded overflow-hidden w-full">
                     <img className="w-60 object-center" src={book.thumbnailUrl} alt="Sunset in the mountains"/>
                       <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">{book.title}</div>

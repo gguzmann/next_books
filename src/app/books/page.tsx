@@ -1,5 +1,3 @@
-'use client'
-
 import { books } from '@/data/data'
 import Link from 'next/link'
 
@@ -32,10 +30,10 @@ export default function Books () {
                     </thead>
                     <tbody className="[&amp;_tr:last-child]:border-0">
                         {books.map(book => (
-                            <tr key={book._id} className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
-                                <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">{book._id}</td>
+                            <tr key={book.id} className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                                <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">{book.id}</td>
                                 <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                                    <Link href={`/books/${book._id}`}>
+                                    <Link href={`/books/${book.id}`}>
                                         {book.title}
                                     </Link>
                                 </td>

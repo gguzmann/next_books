@@ -15,7 +15,7 @@ export async function GET () {
   // }
   const books = await prisma.book.findMany()
   return NextResponse.json({
-    message: 'create Get one libro',
+    message: 'Get one libro',
     books
   })
 }

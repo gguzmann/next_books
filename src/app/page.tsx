@@ -1,13 +1,9 @@
 'use client'
 import { books, categoriesData } from '@/data/data'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export default function Home () {
   const [categories] = useState(categoriesData)
-  useEffect(() => {
-    const test = books.filter(book => book.categories.includes(categories[2]))
-    console.log(test.slice(0, 3))
-  }, [])
 
   return (
     <section className="container mx-auto px-4 md:px-6 py-8">

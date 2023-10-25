@@ -12,13 +12,13 @@ datasource db {
 
 model Book {
   id               Int       @id @default(autoincrement())
-  title            String?
-  isbn             String?
+  title            String
+  isbn             String
   publishedDate    DateTime?
   thumbnailUrl     String?
-  shortDescription String?
-  longDescription  String?
-  status           String?
+  shortDescription String
+  longDescription  String
+  status           String
   authors          String[]
   categories       String[]
 }

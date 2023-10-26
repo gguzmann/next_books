@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Navbar } from '@/components/Navbar'
-import { Login } from '@/components/login'
+import { ModalLogin } from '@/components/ModalLogin'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,10 +16,10 @@ export default function RootLayout ({
   return (
     <html lang="en">
       <body>
-        <Login/>
+        <ModalLogin/>
         <div className="flex">
           <Navbar />
-          <main className="">
+          <main className="w-full">
             {children}
           </main>
         </div>

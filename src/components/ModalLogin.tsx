@@ -7,14 +7,13 @@ const initialState = {
   email: '',
   password: ''
 }
-export const Login = () => {
+export const ModalLogin = () => {
   const [open, setOpen] = useState(false)
   const [login, setLogin] = useState(true)
   const [formulario, setFormulario] = useState(initialState)
   const [error, setError] = useState(null)
 
   const { setAuth, authenticate } = userAuth()
-  console.log(authenticate)
   const handleLogout = () => {
     singOut()
     setAuth(false, '')

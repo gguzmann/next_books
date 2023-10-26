@@ -7,6 +7,7 @@ export async function GET () {
     return {
       title: book.title ?? '',
       isbn: book.isbn ?? '',
+      pageCount: book.pageCount ?? '0',
       publishedDate: new Date('2009-04-01T00:00:00.000-0700') ?? '',
       thumbnailUrl: book.thumbnailUrl ?? '',
       shortDescription: book.shortDescription ?? '',
